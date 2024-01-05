@@ -25,6 +25,13 @@ input.onButtonEvent(Button.B, input.buttonEventClick(), function () {
         basic.showNumber(b2)
     }
 })
+function _61joystickradio () {
+    qwiicjoystick.comment("makecode.calliope.cc")
+    qwiicjoystick.comment("Hardware: v1")
+    qwiicjoystick.comment("Erweiterungen laden:")
+    qwiicjoystick.comment("radio")
+    qwiicjoystick.comment("calliope-net/joystick")
+}
 let b2 = 0
 radio.setTransmitPower(7)
 radio.setFrequencyBand(1)
