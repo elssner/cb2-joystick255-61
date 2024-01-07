@@ -25,7 +25,7 @@ input.onButtonEvent(Button.B, input.buttonEventClick(), function () {
         basic.showNumber(b2)
     }
 })
-function _61joystickradio () {
+function cb2joystick25561 () {
     qwiicjoystick.comment("makecode.calliope.cc")
     qwiicjoystick.comment("Hardware: v1")
     qwiicjoystick.comment("Erweiterungen laden:")
