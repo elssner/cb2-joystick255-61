@@ -10,6 +10,14 @@ input.onButtonEvent(Button.B, input.buttonEventValue(ButtonEvent.LongClick), fun
     radio.setGroup(224)
     basic.showString("B")
 })
+function GitHub () {
+    qwiicjoystick.comment("elssner/cb2-joystick255-61")
+    qwiicjoystick.comment("makecode.calliope.cc")
+    qwiicjoystick.comment("Hardware: v1")
+    qwiicjoystick.comment("2 Erweiterungen laden:")
+    qwiicjoystick.comment("radio")
+    qwiicjoystick.comment("calliope-net/joystick")
+}
 input.onButtonEvent(Button.A, input.buttonEventClick(), function () {
     if (b2 > 1) {
         b2 += -1
@@ -25,13 +33,6 @@ input.onButtonEvent(Button.B, input.buttonEventClick(), function () {
         basic.showNumber(b2)
     }
 })
-function cb2joystick25561 () {
-    qwiicjoystick.comment("makecode.calliope.cc")
-    qwiicjoystick.comment("Hardware: v1")
-    qwiicjoystick.comment("Erweiterungen laden:")
-    qwiicjoystick.comment("radio")
-    qwiicjoystick.comment("calliope-net/joystick")
-}
 let b2 = 0
 radio.setTransmitPower(7)
 radio.setFrequencyBand(1)
